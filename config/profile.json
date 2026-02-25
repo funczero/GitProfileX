@@ -1,0 +1,17 @@
+{
+  "name": "Edimar Ferreira",
+  "nickname": "FuncZero",
+  "github": "funczero",
+  "title": "Full Stack Developer",
+  "location": "Canada",
+  "bio": "Building professional, modular and scalable systems.",
+  "technologies": [
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "Next.js",
+    "Discord.js",
+    "MongoDB",
+    "TailwindCSS"
+  ]
+}
