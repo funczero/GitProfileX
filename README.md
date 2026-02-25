@@ -6,6 +6,7 @@
 ![Stars](https://img.shields.io/github/stars/funczero/gitprofilex?style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/funczero/gitprofilex?style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/funczero/gitprofilex?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-2.0.0-blue?style=for-the-badge)
 
 ---
 
@@ -19,24 +20,24 @@ Whether you're a beginner or a senior engineer, this template adapts to your lev
 
 ## Core Features
 
-- 📊 Dynamic GitHub statistics
-- 🏷️ Auto-generated tech stack badges
-- 🔄 Automated updates via GitHub Actions
-- 🧩 Modular block-based architecture
-- 🌍 International-ready structure
-- ⚡ Easy customization
-- 📈 Professional layout standards
-- 🧠 Scalable documentation structure
+- 📊 Dynamic GitHub statistics  
+- 🏷️ Auto-generated tech stack badges  
+- 🔄 Automated updates via GitHub Actions  
+- 🧩 Modular block-based architecture  
+- 🌍 International-ready structure  
+- ⚡ Easy customization  
+- 📈 Professional layout standards  
+- 🧠 Built-in dynamic project generator  
 
 ---
 
 ## Template Versions
 
-| Version        | Description |
-|---------------|-------------|
-| Minimal       | Clean and simple layout |
-| Professional  | Balanced and modern design |
-| Advanced      | Animated, dynamic and fully featured |
+| Version       | Description |
+|--------------|------------|
+| Minimal      | Clean and simple layout |
+| Professional | Balanced and modern design |
+| Advanced     | Animated, dynamic and fully featured |
 
 All templates are available inside the `/template` directory.
 
@@ -44,11 +45,11 @@ All templates are available inside the `/template` directory.
 
 ## Quick Start
 
-1. Click **Use this template**
-2. Rename the repository to your GitHub username
-3. Edit the `README.md`
-4. Enable GitHub Actions (optional)
-5. Customize your sections
+1. Click **Use this template**  
+2. Rename the repository to your GitHub username  
+3. Edit the `README.md`  
+4. Enable GitHub Actions (optional)  
+5. Customize your sections  
 
 Done. Your GitHub profile is now live and professional.
 
@@ -69,7 +70,7 @@ Example usage:
 ![Streak](https://streak-stats.demolab.com?user=YOURUSERNAME&theme=radical)
 ```
 
-You only need to replace `YOURUSERNAME` with your GitHub username.
+Replace `YOURUSERNAME` with your GitHub username.
 
 ---
 
@@ -93,16 +94,43 @@ GitProfileX supports automatic profile updates using GitHub Actions.
 
 Possible automation ideas:
 
-- Update latest repositories
-- Update WakaTime stats
-- Update pinned projects
-- Sync external portfolio data
-- Display current project version
+- Update latest repositories  
+- Update WakaTime stats  
+- Update pinned projects  
+- Sync external portfolio data  
+- Display current project version  
 
 Workflow file location:
 
 ```
 .github/workflows/update.yml
+```
+
+---
+
+## Dynamic Generator
+
+GitProfileX includes a dynamic project generator powered by the GitHub API.
+
+To run locally:
+
+```bash
+npm install
+npm run generate
+```
+
+This will fetch your most starred repositories and generate dynamic content.
+
+Optional environment variable:
+
+```bash
+GITHUB_USERNAME=yourusername
+```
+
+If not provided, it defaults to:
+
+```
+funczero
 ```
 
 ---
@@ -116,6 +144,8 @@ gitprofilex/
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
+├── package.json
+├── .gitignore
 │
 ├── template/
 │   ├── minimal.md
@@ -129,6 +159,7 @@ gitprofilex/
 │   └── faq.md
 │
 ├── scripts/
+│   ├── generate.js
 │   ├── update-readme.js
 │   └── fetch-projects.js
 │
@@ -145,12 +176,12 @@ Full documentation is available inside the `/docs` directory.
 
 Topics include:
 
-- Installation guide
-- Customization guide
-- Badge generation
-- GitHub API usage
-- Automation setup
-- Troubleshooting
+- Installation guide  
+- Customization guide  
+- Badge generation  
+- GitHub API usage  
+- Automation setup  
+- Troubleshooting  
 
 ---
 
@@ -158,10 +189,10 @@ Topics include:
 
 Contributions are welcome.
 
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Submit a pull request
+1. Fork the repository  
+2. Create a new branch  
+3. Commit your changes  
+4. Submit a pull request  
 
 Please follow the contribution guidelines.
 
