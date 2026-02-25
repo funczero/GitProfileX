@@ -1,0 +1,11 @@
+{
+  "name": "gitprofilex",
+  "version": "2.0.0",
+  "description": "Professional GitHub Profile README Template Generator",
+  "main": "scripts/generate-readme.js",
+  "scripts": {
+    "generate": "node scripts/generate-readme.js"
+  },
+  "author": "FuncZero",
+  "license": "MIT"
+}
